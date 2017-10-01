@@ -11,6 +11,9 @@ Getting started repository to docker
 - Run in background
 `docker run -d image_name`
 
+- Bring runing Docker container to bash
+`docker exec -it [id or name] bash`
+
 - Build Dockerfile
 `docker build -t image_name [path_dockerfile]`
 
