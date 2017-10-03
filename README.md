@@ -8,6 +8,9 @@ Getting started repository to docker
 - Commit
 `docker commit [container_id] image_name`
 
+- Runing containers
+`docker(-compose) ps (-a)`
+
 - Run in background
 `docker run -d image_name`
 
